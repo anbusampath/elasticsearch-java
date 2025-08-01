@@ -16,7 +16,6 @@ steps:
       env:
         DESTINATION_PATH: "s3://artifacts.elastic.co/javadoc/co/elastic/clients/elasticsearch-java/"
         EXTRACT_ARTIFACT: "elasticsearch-java-${VERSION}-javadoc.jar"
-        DRY_RUN: "true"
 
 #notify:
 #  - slack: "#devtools-notify"
